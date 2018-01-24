@@ -16,5 +16,11 @@ namespace Calculator.Test.Unit
             var uut = new Calculator();
             Assert.That(uut.Add(2, 2), Is.EqualTo(4));
         }
+        [Test]
+        public void TestCalc2()
+        {
+            var uut = new Calculator();
+            Assert.That(uut.Add(2, 4), Is.EqualTo(6));
+        }
     }
 }
